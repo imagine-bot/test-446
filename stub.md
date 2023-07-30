@@ -13,3 +13,15 @@ temperature: 0
 append hello world to readme file using the echo command
 ```
 
+<details open id="ce809e43e17ff50d7fb0368f2466a936">
+<summary></summary>
+
+You can append "Hello World" to a readme file using the `echo` command in the terminal. Here's how you can do it:
+
+```bash
+echo "Hello World" >> README.md
+```
+
+This command will append the string "Hello World" to the end of the `README.md` file. If the file does not exist, it will be created.
+</details>
+
