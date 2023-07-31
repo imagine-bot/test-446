@@ -31,3 +31,17 @@ This command will append the string "Hello World" to the end of the `README.md` 
 append foo bar to the readme file using the echo command
 ```
 
+<details open id="a5d7dc6491d20378c5edf4ef959d8259">
+<summary></summary>
+
+You can append "foo bar" to the readme file using the `echo` command in the terminal. Here's how you can do it:
+
+Filename: `terminal`
+
+```bash
+echo "foo bar" >> README.md
+```
+
+This command will append the string "foo bar" to the end of the `README.md` file. If the file does not exist, it will be created.
+</details>
+
