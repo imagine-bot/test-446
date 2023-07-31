@@ -49,3 +49,9 @@ echo "hi" >> README.md
 This command will append the text "hi" to the end of the `README.md` file. If the file does not exist, it will be created.
 </details>
 
+
+
+```stub
+append hello to the readme file using the echo command
+```
+
