@@ -55,3 +55,17 @@ This command will append the text "hi" to the end of the `README.md` file. If th
 append hello to the readme file using the echo command
 ```
 
+<details open id="98ab955439e56e75e3f524c25dd88190">
+<summary></summary>
+
+You can append "hello" to the readme file using the `echo` command in the terminal. Here's how you can do it:
+
+```bash
+echo "hello" >> README.md
+```
+
+This command will append the string "hello" to the end of the file named README.md. If the file does not exist, it will be created. 
+
+Please replace `README.md` with your actual file path if it's located in another directory.
+</details>
+
