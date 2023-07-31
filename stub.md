@@ -47,17 +47,17 @@ This command will append the string "Hello World" to the end of the `README.md` 
 append world to the readme file using the echo command
 ```
 
-
-
-<details open id="9dc4c755d11cfdf7fae3d6cb1599e337">
+<details open id="ad37966e0b281ebb4f66f53d1210bb6a">
 <summary></summary>
 
-You can append "hello" to the readme file using the `echo` command in the terminal. Here's how you can do it:
+You can append the word "world" to the end of a README file using the `echo` command in a Unix-like operating system. Here's how you can do it:
 
 ```bash
-echo "hello" >> README.md
+echo "world" >> README.md
 ```
 
-This command will append the string "hello" to the end of the file named README.md. If the file does not exist, it will be created.
+This command will append the word "world" to the end of the README.md file. If the file does not exist, it will be created. 
+
+Please note that the `>>` operator is used to append output to an existing file. If you use a single `>` operator, it will overwrite the file.
 </details>
 
