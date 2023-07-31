@@ -43,9 +43,13 @@ This command will append the string "Hello World" to the end of the `README.md` 
 
 
 
+
+
 ```stub
-append world to the readme file using the echo command
+append hello to the readme file using the echo command
 ```
+
+
 
 <details open id="ad37966e0b281ebb4f66f53d1210bb6a">
 <summary></summary>
