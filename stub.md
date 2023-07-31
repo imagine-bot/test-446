@@ -25,3 +25,9 @@ echo "Hello World" >> README.md
 This command will append the string "Hello World" to the end of the `README.md` file. If the file does not exist, it will be created.
 </details>
 
+
+
+```stub
+append foo bar to the readme file using the echo command
+```
+
