@@ -51,9 +51,13 @@ This command will append the string "Hello World" to the end of the `README.md` 
 
 
 
+
+
 ```stub
-append 0000 to the readme.md file using the echo command
+append 0000 to the READM.md file using the echo command
 ```
+
+
 
 
 
