@@ -27,6 +27,12 @@ This command will append the string "Hello World" to the end of the `README.md` 
 
 
 
+
+
+```stub
+echo middle to readme file using the echo command
+```
+
 ```stub
 append foo bar to the readme file using the echo command
 ```
