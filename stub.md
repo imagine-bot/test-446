@@ -51,21 +51,15 @@ This command will append the string "Hello World" to the end of the `README.md` 
 append testing to the readme file using the echo command
 ```
 
-
-
-
-
-<details open id="ad37966e0b281ebb4f66f53d1210bb6a">
+<details open id="66555b2d5203e7957e177b9d144d559d">
 <summary></summary>
 
-You can append the word "world" to the end of a README file using the `echo` command in a Unix-like operating system. Here's how you can do it:
+You can append text to a file in Linux using the `echo` command along with the `>>` operator. Here's how you can append the text "testing" to a file named `README.md`:
 
 ```bash
-echo "world" >> README.md
+echo "testing" >> README.md
 ```
 
-This command will append the word "world" to the end of the README.md file. If the file does not exist, it will be created. 
-
-Please note that the `>>` operator is used to append output to an existing file. If you use a single `>` operator, it will overwrite the file.
+This command will append the text "testing" to the end of the `README.md` file. If the file does not exist, it will be created.
 </details>
 
