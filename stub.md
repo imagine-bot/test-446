@@ -37,25 +37,7 @@ This command will append the string "Hello World" to the end of the `README.md` 
 
 
 
-```stub
-append 1234 to readme file using the echo command
-```
 
-
-
-
-
-<details open id="13f2c7a1e83a73aaa8fbdc21f1cff9c6">
-<summary></summary>
-
-You can append text to a file in Linux using the `echo` command followed by `>>` and the filename. Here's how you can append the text "hi" to a file named `README.md`:
-
-```bash
-echo "hi" >> README.md
-```
-
-This command will append the text "hi" to the end of the `README.md` file. If the file does not exist, it will be created.
-</details>
 
 
 
