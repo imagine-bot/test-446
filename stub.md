@@ -57,33 +57,15 @@ This command will append the string "Hello World" to the end of the `README.md` 
 append 0000 to the READM.md file using the echo command
 ```
 
-
-
-
-
-<details open id="7b2d07413fb6121c44881337b0f7f01b">
+<details open id="3d7b1a7a257178cf2d10a8ad4c671a24">
 <summary></summary>
 
-You can append "0000" to the end of a file named "readme" using the `echo` command in a Unix-like operating system. Here's how you can do it:
+You can append text to a file in a Unix-based system using the `echo` command in combination with the `>>` operator. Here's how you can append "0000" to the `README.md` file:
 
 ```bash
-echo "0000" >> readme
+echo "0000" >> README.md
 ```
 
-This command will append the string "0000" to the end of the file. If the file does not exist, it will be created.
-
-Please note that you need to have write permissions to the file and the directory it's in to be able to do this. If you don't, you might need to use `sudo`:
-
-```bash
-sudo echo "0000" >> readme
-```
-
-However, this might not work as expected because the redirection (`>>`) might be performed by your shell before `sudo` is invoked. In this case, you can use `tee`:
-
-```bash
-echo "0000" | sudo tee -a readme
-```
-
-The `-a` option tells `tee` to append to the file, rather than overwriting it.
+This command will append the string "0000" to the end of the `README.md` file. If the file does not exist, it will be created.
 </details>
 
